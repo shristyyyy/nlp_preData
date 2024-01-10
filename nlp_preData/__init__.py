@@ -1,7 +1,6 @@
+from  nlp_preData import utils
 
-from nlp_preData import utils
-
-__version__ = '0.10.3'
+__version__ = '0.10.4'
 
 def get_wordcounts(x):
 	return utils._get_wordcounts(x)

@@ -5,7 +5,7 @@ with open('README.md', 'r') as file:
 
 setuptools.setup(
     name='nlp_preData',
-    version='0.0.3',
+    version='0.10.4',
     author='Shristy',
     description='This is preprocessing package',
     long_description=long_description,
