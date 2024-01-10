@@ -2,6 +2,14 @@ from  nlp_preData import utils
 
 __version__ = '0.10.4'
 
+def lemmatize_text(x):
+    return utils._lemmatize_text(x)
+
+def convert_to_lowercase(x):
+    return utils._convert_to_lowercase(x)
+
+def tokenize_text(x):
+    return utils. _tokenize_text(x)
 def get_wordcounts(x):
 	return utils._get_wordcounts(x)
 
